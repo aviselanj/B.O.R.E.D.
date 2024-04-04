@@ -16,7 +16,7 @@ $(function () {
     $("#tags").autocomplete({
         source: availableTags
     });
-});
+
 // color animation
 $(function () {
     var state = true;
