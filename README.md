@@ -1,3 +1,3 @@
-# ask-amya
+# B.O.R.E.D
 
-Ask Amya Bot anything. She is artificial intelligence  that provides insightful responses.
+Meet B.O.R.E.D., the Brainwave-Optimized Robotic Expert Dispenser. Designed to alleviate the doldrums of boredom, B.O.R.E.D. is a cutting-edge creation engineered to provide insightful advice and engaging conversation when monotony strikes. This sleek and sentient robot is equipped with an advanced AI system capable of analyzing your interests, preferences, and current mood through subtle cues in your body language and speech patterns. Whether you're stuck in a rut or simply seeking inspiration, B.O.R.E.D. is always ready with a wealth of suggestions, ranging from stimulating activities to thought-provoking discussions. With its intuitive understanding and inexhaustible repertoire of advice, B.O.R.E.D. transforms moments of ennui into opportunities for growth and exploration.

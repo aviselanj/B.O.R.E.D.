@@ -16,7 +16,7 @@ $(function () {
     $("#tags").autocomplete({
         source: availableTags
     });
-});
+
 // color animation
 $(function () {
     var state = true;
@@ -34,6 +34,7 @@ $(function () {
                 width: 240
             }, 1000);
         }
+    
         state = !state;
     });
 });
