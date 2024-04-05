@@ -34,6 +34,7 @@ $(function () {
                 width: 240
             }, 1000);
         }
+    
         state = !state;
     });
 });
