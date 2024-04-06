@@ -1,11 +1,14 @@
 'use strict'
-const base_url = "http://makeup-api.herokuapp.com/api/v1/products.json";
-$.get(base_url + "?name=toy+pencil", function(data){
-    console.log(data[0].name);
-    console.log(data[0].image_link);
-    console.log(data[0].website_link);
-    console.log(data[0].api_featured_image)
-} )
+const state = {
+    randomActivity:[]
+}
+const fetched = fetch("http://www.boredapi.com/api/activity");
+
+async function getData(){
+    await fetched.then(response => response.json()).then(data => state.randomActivity=data);
+console.log(state.randomActivity);
+}
+getData();
 // JQuery UI
 // selectable squares
 $(function () {

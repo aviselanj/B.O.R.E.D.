@@ -1,26 +1,52 @@
+body {
+  background-image: url("https://images.pexels.com/photos/1446948/pexels-photo-1446948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=3");
+  color: #fff;
+}
+
 #selectable .ui-selecting {
   background: #FECA40;
 }
 
 #selectable .ui-selected {
-  background: #F39814;
+  background: rgba(243, 20, 232, 0.4274509804);
   color: white;
 }
 
 #selectable {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: 10px;
   width: 450px;
+  align-content: center;
 }
 
 #selectable li {
-  margin: 3px;
-  padding: 1px;
+  margin: none;
+  padding: 3px;
   float: left;
-  width: 100px;
-  height: 80px;
-  font-size: 4em;
+  width: 150px;
+  height: 100px;
+  font-size: 1.5em;
+  text-align: center;
+  justify-content: center;
+}
+
+#button {
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+#effect {
+  width: 240px;
+  height: 170px;
+  padding: 0.4em;
+  position: relative;
+  background: #fff;
+}
+
+#effect h3 {
+  margin: 0;
+  padding: 1.4em;
   text-align: center;
 }
 
