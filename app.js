@@ -1,12 +1,24 @@
 'use strict'
+// get data
 const state = {
     randomActivity:[]
 }
-const fetched = fetch("http://www.boredapi.com/api/activity");
+
 
 async function getData(){
-    await fetched.then(response => response.json()).then(data => state.randomActivity=data);
-console.log(state.randomActivity);
+    try{
+        const request = await fetch("http://www.boredapi.com/api/activity");
+        const data = await request.json();
+        state.randomActivity = data;
+        console.log(data);
+       
+    } catch(error){
+        console.log(error)
+    } finally{
+        console.log(state.randomActivity);
+    }
+     //fetched.then(response => response.json()).then(data => state.randomActivity=data);
+
 }
 getData();
 // JQuery UI
